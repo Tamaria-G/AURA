@@ -1,0 +1,15 @@
+@mixin flex ($justify, $align) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    
+}
+
+@mixin txt ($f-size,$f-weight,$l-height,$l-spacing,) {
+    font-size: $f-size;
+    font-weight: $f-weight;
+    line-height: $l-height;
+    letter-spacing: $l-spacing;
+    color: $text-color; 
+}
+

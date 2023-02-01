@@ -1,0 +1,224 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  border-radius: 0;
+}
+
+* {
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/Background-Image.jpg);
+  background-color: rgb(2, 35, 6);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Roboto", sans-serif;
+}
+body .container {
+  max-width: 1726px;
+  width: 100%;
+  margin: 0 auto;
+}
+body .container header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 64px 45px;
+}
+body .container header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .container header nav a {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 18px;
+}
+body .container header nav ul {
+  max-width: 260px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .container section .main-txt {
+  max-width: 1468px;
+  width: 100%;
+  color: #ffffff;
+  margin: 0 auto;
+}
+body .container section .main-txt .main-txt-p {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 75px;
+  letter-spacing: 30%;
+  color: #ffffff;
+}
+body .container section .main-txt .p-i {
+  margin: 65px 486px;
+  letter-spacing: 0.03em;
+}
+body .container section .main-txt .main-txt-p-aura {
+  text-align: center;
+  font-size: 288px;
+  font-weight: 900;
+  line-height: 70px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+body .container section .main-txt .p-an {
+  line-height: 40px;
+  margin: 90px 764px;
+  letter-spacing: 0.3em;
+}
+body .container footer {
+  position: fixed;
+  bottom: 0;
+}
+body .container footer .icons {
+  display: flex;
+  flex-direction: column;
+  margin-left: 45px;
+}
+body .container footer .icons a {
+  color: #ffffff;
+}
+body .container footer .icons a .fa-brands {
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+body {
+  background-image: url(../img/Background-Image.jpg);
+  background-color: rgb(2, 35, 6);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Roboto", sans-serif;
+}
+body header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 64px 45px;
+}
+body header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body header nav a {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 18px;
+}
+body header nav ul {
+  max-width: 260px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body section .container {
+  max-width: 1527px;
+  width: 100%;
+  text-align: center;
+}
+body section .container .img-wrapper {
+  max-width: 1343px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body section .container h2 {
+  font-size: 175px;
+  font-weight: 900;
+  line-height: 70px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+body section .container p {
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 25px;
+  letter-spacing: 0.3em;
+  color: #ffffff;
+}
+body section .container button {
+  width: 400px;
+  padding: 16px;
+  background-color: #0AB175;
+  border: 1px solid #530194;
+  margin: 60px;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 40px;
+  letter-spacing: 0.3em;
+  color: #ffffff;
+}
+body section .container button:hover {
+  box-shadow: 1px 4px 8px 1px #005038;
+}
+body footer {
+  position: fixed;
+  bottom: 0;
+}
+body footer .icons {
+  display: flex;
+  flex-direction: column;
+  margin-left: 45px;
+}
+body footer .icons a {
+  color: #ffffff;
+}
+body footer .icons a .fa-brands {
+  margin-bottom: 30px;
+  font-size: 30px;
+}/*# sourceMappingURL=global.css.map */

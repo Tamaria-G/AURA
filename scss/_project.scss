@@ -1,0 +1,100 @@
+body {
+    background-image: url(../img/Background-Image.jpg);
+    background-color: rgb(2, 35, 6);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    font-family: 'Roboto', sans-serif;
+    
+    
+    
+    header {
+            position: sticky;
+            top: 0;
+            padding: 64px 45px;
+
+            nav {
+                
+                @include flex (space-between,center);
+
+                a {
+                    color: $text-color;
+                    font-weight: 900;
+                    font-size: 18px;
+                }
+                
+                ul {
+                    max-width: 260px;
+                    width: 100%;
+                @include flex (space-between,center);
+                }
+
+
+            }
+
+        
+    }
+
+    section {
+        .container {
+            max-width: 1527px;
+            width: 100%;
+            text-align: center;
+
+            .img-wrapper {
+                max-width: 1343px;
+                width: 100%;
+                margin: 0 auto;
+                @include flex(space-between,center);
+            }
+            h2 {
+                @include txt (175px,900,70px,0.05em);
+                margin-bottom: 50px;
+            }
+            p {
+                @include txt (18px,900,25px,0.3em);
+                
+            }
+            button {
+                width: 400px;
+                padding: 16px;
+                background-color: $button-color;
+                border: 1px solid #530194;
+                margin: 60px;
+                
+
+                &:hover {
+                    box-shadow: 1px 4px 8px 1px #005038;
+                }
+
+                @include txt (24px,900,40px,0.3em)
+                
+    
+                
+            }
+        }
+    }
+
+
+    footer {
+            position: fixed;
+            bottom: 0;
+            .icons{               
+
+                display: flex;
+                flex-direction: column;
+                margin-left: 45px;
+                
+                a {
+                    color: $text-color;
+
+                    .fa-brands {
+                    margin-bottom: 30px;
+                    font-size: 30px;
+                    }
+                }
+                             
+            }
+    }
+    
+}
