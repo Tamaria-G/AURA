@@ -221,4 +221,113 @@ body footer .icons a {
 body footer .icons a .fa-brands {
   margin-bottom: 30px;
   font-size: 30px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+}
+.contact-container .contact-info {
+  max-width: 505px;
+  width: 100%;
+}
+.contact-container .contact-info h2 {
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 75px;
+  letter-spacing: 0.15em;
+  color: #ffffff;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+.contact-container .contact-info h3 {
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 75px;
+  letter-spacing: 0.15em;
+  color: #ffffff;
+  text-decoration: underline;
+}
+.contact-container .contact-info a {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 50px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+.contact-container .contact-form {
+  max-width: 794px;
+  width: 100%;
+  margin-bottom: 132px;
+  background: linear-gradient(132.8deg, #12C479 0%, rgba(5, 190, 179, 0.48) 100%);
+}
+.contact-container .contact-form h2 {
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 75px;
+  letter-spacing: 0.15em;
+  color: #ffffff;
+  margin-top: 52px;
+  margin-bottom: 60px;
+}
+.contact-container .contact-form .input-wrapper {
+  max-width: 645px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-container .contact-form .input-wrapper input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #ffffff;
+  margin-bottom: 40px;
+  padding: 10px 0;
+  background: none;
+  outline: none;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 10px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+.contact-container .contact-form .input-wrapper ::-moz-placeholder {
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 10px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+.contact-container .contact-form .input-wrapper :-ms-input-placeholder {
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 10px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+.contact-container .contact-form .input-wrapper ::placeholder {
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 10px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+.contact-container .contact-form input[type=submit] {
+  max-width: 348px;
+  width: 100%;
+  background: linear-gradient(132.8deg, #18C8C8 0%, #19E891 100%);
+  margin-bottom: 56px;
+  padding: 21px 52px;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 75px;
+  letter-spacing: 0.4em;
+  color: #ffffff;
+}
+.contact-container .contact-form input[type=submit]:hover {
+  box-shadow: 4px 6px 20px 2px #275353;
 }/*# sourceMappingURL=global.css.map */

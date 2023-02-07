@@ -77,24 +77,24 @@ body {
 
 
     footer {
-            position: fixed;
-            bottom: 0;
-            .icons{               
+        position: fixed;
+        bottom: 0;
+        .icons{               
 
-                display: flex;
-                flex-direction: column;
-                margin-left: 45px;
-                
-                a {
-                    color: $text-color;
+            display: flex;
+            flex-direction: column;
+            margin-left: 45px;
+              
+            a {
+                color: $text-color;
 
-                    .fa-brands {
-                    margin-bottom: 30px;
-                    font-size: 30px;
-                    }
+                .fa-brands {
+                margin-bottom: 30px;
+                font-size: 30px;
                 }
-                             
             }
+                           
+        }
     }
     
 }
